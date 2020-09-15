@@ -20,3 +20,13 @@ space_missions['Year'] = space_missions['DateTime'].apply(lambda datetime: datet
 space_missions["Country"] = space_missions["Location"].apply(lambda location: location.split(", ")[-1])
 
 space_missions.head(10)
+
+plt.figure(figsize=(8,18))
+ax = sns.countplot(y="Company Name", data=space_missions, order=space_missions["Company Name"].value_counts().index)
+ax.set_xscale("log")
+ax.axes.set_title("Company vs. # Launches (Log Scale)",fontsize=18)
+ax.set_xlabel("Number of Launches (Log Scale)",fontsize=16)
+ax.set_ylabel("Company Name",fontsize=16)
+ax.tick_params(labelsize=12)
+plt.tight_layout()
+plt.show()
