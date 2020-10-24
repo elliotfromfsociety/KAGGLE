@@ -17,14 +17,14 @@
 
      <!-- Main Input For Receiving Query to our ML -->
     <form action="{{ url_for('predict')}}"method="post">
-    	<input type="text" name="Pclass	" placeholder="Experience" required="required" />
-        <input type="text" name="Age" placeholder="Test Score" required="required" />
-        <input type="text" name="SibSp" placeholder="Interview Score" required="required" />
-        <input type="text" name="Parch" placeholder="Interview Score" required="required" />
-        <input type="text" name="Fare" placeholder="Interview Score" required="required" />
-        <input type="text" name="Gender" placeholder="Interview Score" required="required" />
-        <input type="text" name="Q" placeholder="Interview Score" required="required" />
-        <input type="text" name="S" placeholder="Interview Score" required="required" />
+    	<input type="text" name="Pclass	" placeholder="Passenger Class" required="required" /> <br>
+        <input type="text" name="Age" placeholder="Age" required="required" /><br>
+        <input type="text" name="SibSp" placeholder="Siblings/Spouse" required="required" /><br>
+        <input type="text" name="Parch" placeholder="Parent/Children" required="required" /><br>
+        <input type="text" name="Fare" placeholder="Fare" required="required" /><br>
+        <input type="text" name="Gender" placeholder="Gender" required="required" /><br>
+        <input type="text" name="Q" placeholder="Q" required="required" /><br>
+        <input type="text" name="S" placeholder="S" required="required" /><br>
 
 
         <button type="submit" class="btn btn-primary btn-block btn-large">Predict</button>
