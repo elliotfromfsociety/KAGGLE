@@ -19,8 +19,10 @@ def predict():
     prediction = model.predict(final_features)
 
     output = round(prediction[0], 2)
-
-    return render_template('index.html', prediction_text='Employee Salary should be $ {}'.format(output))
+    if output == 1 :
+        return render_template('index.html', prediction_text='Passenger will survive')
+    else :
+        return render_template('index.html', prediction_text='Passenger will not survive, RIP')
 
 if __name__ == "__main__":
     app.run(debug=True)
