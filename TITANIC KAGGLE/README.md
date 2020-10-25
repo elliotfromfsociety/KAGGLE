@@ -1,6 +1,6 @@
 # Readme.md
 
-![](TITANIC KAGGLE/markups/new.png)
+![](markups/new.png)
 
 # TITANIC SURVIVAL PREDICTION 🛳️ 
 
