@@ -1,6 +1,6 @@
 # Readme.md
 
-![](https://logodix.com/logo/1078457.png)
+![](TITANIC KAGGLE/markups/new.png)
 
 # TITANIC SURVIVAL PREDICTION 🛳️ 
 
