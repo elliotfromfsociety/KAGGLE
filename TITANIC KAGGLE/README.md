@@ -1,10 +1,10 @@
 # Readme.md
 
-![](markups\new.png)
+![](https://logodix.com/logo/1078457.png)
 
 # TITANIC SURVIVAL PREDICTION 🛳️ 
 
-![](markups\titanic.gif)
+![](https://thumbs.gfycat.com/AccurateGrizzledFeline-size_restricted.gif)
 
 >###
 
